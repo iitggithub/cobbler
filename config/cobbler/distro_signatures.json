@@ -1087,6 +1087,22 @@
     "kernel_options":"",
     "kernel_options_post":"",
     "boot_files":["install.img"]
+   },
+   "xenserver700": {
+    "signatures":["packages.xenserver"],
+    "version_file":"^XS-REPOSITORY$",
+    "version_file_regex":"^xenserver-release-(7\\.[0-9]+\\.[0-9]+)\\.[0-9]+c\\.[0-9]+\\.x86_64\\.rpm$",
+    "kernel_arch":"kernel-(.*).rpm",
+    "kernel_arch_regex":null,
+    "supported_arches":["x86_64"],
+    "supported_repo_breeds":[],
+    "kernel_file":"vmlinuz",
+    "initrd_file":"initrd(.*)\\.img",
+    "isolinux_ok":false,
+    "default_kickstart":"",
+    "kernel_options":"",
+    "kernel_options_post":"",
+    "boot_files":[]
    }
   },
   "unix": {
